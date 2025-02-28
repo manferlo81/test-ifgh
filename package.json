@@ -10,6 +10,12 @@
     "info": "echo Running dependency prepare script",
     "prepare": "run-s info build"
   },
+  "files": [
+    "dist/index.js",
+    "dist/index.js.map",
+    "dist/index.d.ts",
+    "dist/index.d.ts.map"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/manferlo81/test-ifgh.git"
