@@ -2,12 +2,13 @@
   "name": "test-ifgh",
   "version": "1.0.0",
   "description": "",
-  "main": "./index.js",
-  "types": "./index.d.ts",
-  "typings": "./index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepare": "run-s build"
+    "info": "echo Running dependency prepare script",
+    "prepare": "run-s info build"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,8 @@
   "license": "ISC",
   "type": "commonjs",
   "exports": {
-    "types": "./index.d.ts",
-    "require": "./index.js"
+    "types": "./dist/index.d.ts",
+    "require": "./dist/index.js"
   },
   "bugs": {
     "url": "https://github.com/manferlo81/test-ifgh/issues"
